@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The forEach method will run a function so that it can iterate over the items in an array. So that it can get each individual item once and print it. 
+
+Map is the same as forEach except that it will create a new array with the results of the function.
+
 2. What is the difference between a function and a method?
+FUnctions allows us to create a code block so that we can invoke it many times without need for repetition.
+Methods are called a function when they are defined within an object. It is within that object scope so it can reached when calling that object with it.
+
 
 3. What is closure?
 
+Closure is a function within a function and it's lexical environment in where it was declared. The lexical environment refers to all of the local variable and properties in an object and the outer lexical is anything outside of the curly brackets.
+
 4. Describe the four rules of the 'this' keyword.
+-Window binding is the default for the window and it will only show the window's properties.
+-Implicit Binding is the closest item to the left of the dot when it is called.
+-New binding creates a new object.
+-Explicit binding are call, bind and apply which will allow you to invoke a function where we want it without moving it to a local scope.
 
 5. Why do we need super() in an extended class?
+It allows us to be able to access all of the parent's objects and methods.
+
 
 ## Project Set up
 
@@ -49,7 +64,7 @@ Follow these steps to set up and work on your project:
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
